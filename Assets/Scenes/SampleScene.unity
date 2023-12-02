@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 1291024454}
   m_Layer: 3
   m_Name: Bird
-  m_TagString: Untagged
+  m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -818,6 +818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myRigidbody2D: {fileID: 1291024451}
   flapStrength: 10
+  logic: {fileID: 0}
+  isAlive: 1
 --- !u!58 &1291024455
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1034,6 +1036,7 @@ MonoBehaviour:
   score: 0
   scoreText: {fileID: 147492247}
   gameOverScreen: {fileID: 786270577}
+  bird: {fileID: 1291024450}
 --- !u!4 &1573381672
 Transform:
   m_ObjectHideFlags: 0

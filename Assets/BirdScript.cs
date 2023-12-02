@@ -7,7 +7,7 @@ public class BirdScript : MonoBehaviour
     public Rigidbody2D myRigidbody2D;
     public float flapStrength;
     public LogicScript logic;
-    private bool isAlive = true;
+    public bool isAlive = true;
     // Start is called before the first frame update
     void Start()
     {
